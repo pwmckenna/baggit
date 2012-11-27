@@ -1,0 +1,42 @@
+{
+  "name": "baggit",
+  "description": "Store a file on github to be publicly accessible",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pwmckenna/baggit",
+  "author": {
+    "name": "Patrick Williams",
+    "email": "pwmckenna@gmail.com",
+    "url": "pwmckenna.github.com"
+  },
+  "dependencies": {
+    "q-io": ">= 1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pwmckenna/baggit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pwmckenna/baggit/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pwmckenna/baggit/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/baggit",
+  "preferGlobal": "true",
+  "bin": {
+    "baggit": "./lib/baggit.js"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": []
+}
