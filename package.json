@@ -12,7 +12,6 @@
     "underscore": "1.4.4",
     "q": "0.8.11",
     "node-fs": "0.1.5",
-    "nj-tinyurl": "0.1.0",
     "colorize": "~0.1.0"
   },
   "repository": {
