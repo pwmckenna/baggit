@@ -3,13 +3,9 @@
 Store a file on github to be publicly accessible
 
 ## Getting Started
-Install the module with: `npm install baggit`
+Install the module with: `npm install baggit -g`
 
-## Documentation
-_(Coming soon)_
-
-## Examples
-_(Coming soon)_
+```baggit [FILE]```
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/gruntjs/grunt).
