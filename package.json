@@ -42,5 +42,8 @@
   "devDependencies": {
     "grunt": "~0.3.17"
   },
+  "scripts": { 
+    "preinstall" : "./bin/install.sh" 
+  },
   "keywords": []
 }
