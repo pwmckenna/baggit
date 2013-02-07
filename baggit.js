@@ -27,9 +27,9 @@ var path = require('path');
 var fsExt = require('node-fs');
 var tinyUrl = require('nj-tinyurl');
 var cconsole = require('colorize').console;
-var logo = require('./logo');
+var logo = require('./lib/logo');
 var colors = require('colors');
-var gitty = require('./gitty');
+var gitty = require('./lib/gitty');
 
 var BASE_DIRECTORY = process.env.HOME + path.sep + '.baggit';
 
@@ -115,7 +115,6 @@ function printLink(file) {
         var end = ss.indexOf('/');
         var user = ss.substr(0, end);
 
-        console.log('remotes', remotes);
         var url = encodeURI('http://' + user + '.github.com/.baggit' + file);
         cconsole.log('#bold[#green[' + url.underline.blue + ']]');
         defer.resolve();

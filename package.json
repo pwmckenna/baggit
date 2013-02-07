@@ -1,7 +1,7 @@
 {
   "name": "baggit",
   "description": "Store a file on github to be publicly accessible",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/pwmckenna/baggit",
   "author": {
     "name": "Patrick Williams",
@@ -32,10 +32,10 @@
       "url": "https://github.com/pwmckenna/baggit/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/baggit",
+  "main": "baggit",
   "preferGlobal": "true",
   "bin": {
-    "baggit": "./lib/baggit.js"
+    "baggit": "./baggit.js"
   },
   "engines": {
     "node": ">= 0.6.0"
