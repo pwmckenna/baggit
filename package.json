@@ -16,7 +16,8 @@
     "github": "~0.1.8",
     "prompt": "~0.2.9",
     "gitty": "~1.1.6",
-    "colors": "~0.6.0-1"
+    "colors": "~0.6.0-1",
+    "update-notifier": "~0.1.2"
   },
   "repository": {
     "type": "git",
