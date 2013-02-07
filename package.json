@@ -9,10 +9,13 @@
     "url": "pwmckenna.github.com"
   },
   "dependencies": {
-    "underscore": "1.4.4",
+    "underscore": "~1.4.4",
     "q": "0.8.11",
     "node-fs": "0.1.5",
-    "colorize": "~0.1.0"
+    "colorize": "~0.1.0",
+    "github": "~0.1.8",
+    "prompt": "~0.2.9",
+    "gitty": "~1.1.6"
   },
   "repository": {
     "type": "git",
@@ -36,13 +39,10 @@
     "node": ">= 0.6.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "preinstall": "node ./scripts/install.js"
   },
   "devDependencies": {
     "grunt": "~0.3.17"
-  },
-  "scripts": { 
-    "preinstall" : "./bin/install.sh" 
   },
   "keywords": []
 }
