@@ -15,7 +15,8 @@
     "colorize": "~0.1.0",
     "github": "~0.1.8",
     "prompt": "~0.2.9",
-    "gitty": "~1.1.6"
+    "gitty": "~1.1.6",
+    "colors": "~0.6.0-1"
   },
   "repository": {
     "type": "git",
@@ -39,7 +40,7 @@
     "node": ">= 0.6.0"
   },
   "scripts": {
-    "preinstall": "node ./scripts/install.js"
+    "preinstall": "node ./lib/install.js"
   },
   "devDependencies": {
     "grunt": "~0.3.17"
