@@ -1,7 +1,7 @@
 {
   "name": "baggit",
   "description": "Store a file on github to be publicly accessible",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/pwmckenna/baggit",
   "author": {
     "name": "Patrick Williams",
@@ -41,7 +41,7 @@
     "node": ">= 0.6.0"
   },
   "scripts": {
-    "preinstall": "node ./lib/install.js"
+    "postinstall": "node ./lib/install.js"
   },
   "devDependencies": {
     "grunt": "~0.3.17"
