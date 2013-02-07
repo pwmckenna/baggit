@@ -25,7 +25,6 @@ var _ = require('underscore');
 var q = require('q');
 var path = require('path');
 var fsExt = require('node-fs');
-var tinyUrl = require('nj-tinyurl');
 var cconsole = require('colorize').console;
 var logo = require('./lib/logo');
 var colors = require('colors');
