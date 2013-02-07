@@ -143,6 +143,10 @@ function baggit() {
     var copy = parse.then(copyFileToBaggitDirectory);
     var commit = copy.then(commitBaggitFile);
     var print = commit.then(printLink);
+
+    print.fail(function(msg) {
+        cconsole.log('#red[' + msg + ']');
+    });
 }
 if(require.main === module) {
     baggit();
